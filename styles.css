@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.simon-board {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+#start-button {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
